@@ -15,10 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    mercury,
+    yappy,
+    altarix,
+    simbirsoft,
     carrent,
     jobit,
     tripguide,
@@ -116,85 +116,65 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Full Stack JavaScript Developer",
+      company_name: "YAPPY",
+      icon: yappy,
+      iconBg: "#00e2b8",
+      date: "Oct 2020 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Performed the application from scratch until it reached four million users.",
+        `
+        Developed Frontend, Backend, relational databases, and Continuous Integration
+        for ARM-moderation system that allows moderators to check and moderate it faster for
+        45%
+        `,
+        "Covered all features with API / E2E/ Unit testing by BDD and TDD methodologies for all projects that decreased bug quantity by 35%",
+        "Implemented metrics for the landing. Increased UX/UI by 20%",
+        "Supported software systems by design patterns and team conventions that reduced speed quantity by 25% and decreased bug quantity by 20%.",
+        "Made a presentation about Micro Frontend and monorepository for colleagues."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Frontend Developer",
+      company_name: "Altarix",
+      icon: altarix,
+      iconBg: "#daf8ff",
+      date: "Mar 2019 - Oct 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Invented a business application that targets B2B and B2C financial clients that increased the speed of mortgage product selection by 23%..",
+        "Made a UI-kit library system that increased the speed of building new features by 15%.",
+        "Implemented the quiz with step-by-step navigation for B2C clients, which improved user experience",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Migrated React Components from Class Components to Function Components"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Frontend Developer",
+      company_name: "SimbirSoft",
+      icon: simbirsoft,
+      iconBg: "#166dfa",
+      date: "Jun 2018 - Mar 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed Task Tracker application that targets for IT-companies. Added local internationalization & localization for three languages that increased quantity of clients on 15%.",
+        "Built a Music Label community that supports beginning artists. (React, Redux, ReduxSaga). Developed authorization, video player, upload tracks, and about artists sections. Developed authorization, video player, upload tracks and about artists sections",
+        "Implemented software system for renting Power Banks. I have created forms and map sections."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Frontend Developer",
+      company_name: "Mercury Development",
+      icon: mercury,
+      iconBg: "#fff",
+      date: "Feb 2018 - Jun 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Implemented Profile and Bets section for Golf's Club Application.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+
   
   const projects = [
     {
@@ -262,4 +242,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
