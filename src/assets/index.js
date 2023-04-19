@@ -26,9 +26,9 @@ import simbirsoft from "./company/simbirsoft.png";
 import yappy from "./company/yappy.png";
 import altarix from "./company/altarix.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import quickView from "./quick-view-login.jpg";
+import streamingApp from "./streaming-app.png";
+import artistapp from "./artistapp.png";
 
 export {
   logo,
@@ -55,8 +55,8 @@ export {
   mercury,
   simbirsoft,
   altarix,
-  carrent,
-  jobit,
-  tripguide,
-  yappy
+  quickView,
+  streamingApp,
+  yappy,
+  artistapp
 };
