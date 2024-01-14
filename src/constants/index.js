@@ -116,7 +116,7 @@ const experiences = [
     company_name: "YAPPY",
     icon: yappy,
     iconBg: "#00e2b8",
-    date: "Oct 2020 - Feb 2023",
+    date: "Oct 2020 - Present",
     points: [
       "Performed the application from scratch until it reached four million users.",
       `
